@@ -6,8 +6,8 @@
 
     --dark-clr: #2d2d2d;
     --light-clr: #d3d3d3;
-    --clr-primary: #19bf19;
-    --clr-accent: #19bfae;
+    --clr-primary: hsl(120, 77%, 42%);
+    --clr-accent: hsl(150, 780%, 50%);
 
     --ff-title: 'Open Sans', sans-serif;
     --ff-text: 'Montserrat', sans-serif;
