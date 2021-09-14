@@ -26,7 +26,8 @@ html {
 
     box-sizing: border-box;
     font-family: var(--ff-title);
-    color: var(--light-clr);
+    color: black;
+    background-color: var(--dark-clr);
 
 }
 
@@ -152,7 +153,7 @@ nav a {
 nav a:hover,
 nav a:focus {
 
-    color: var(--clr-primary);
+    color: #1aff1a;
     text-decoration: underline;
 
 }
@@ -175,12 +176,12 @@ nav a:focus {
 .btn {
 
     padding: .75em 2.5em;
-    color: grey;
+    color: white;
     text-decoration: none;
     display: block;
     margin: 0.5em 0;
     border-radius: .35em;
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 10px black;
     transition: all 200ms ease-in-out;
     opacity: .7;
 
@@ -208,7 +209,7 @@ nav a:focus {
 .logo {
 
     font-family: var(--ff-title);
-    color: white;
+    color: black;
     padding: 10px;
 
 }
@@ -230,7 +231,7 @@ nav a:focus {
     background-blend-mode: multiply;
     background-attachment: fixed;
     background-size: cover;
-    color: var(--dark-clr);
+    color: var(--light-clr);
     text-align: center;
     padding: 15vh 1em;
 
@@ -243,7 +244,7 @@ nav a:focus {
 
     display: flex;
     flex-direction: column;
-    color: var(--dark-clr);
+    color: var(--light-clr);
     font-weight: 500;
     padding: 0;
 
@@ -269,6 +270,7 @@ nav a:focus {
 .download-projects {
 
     background: #222;
+    color: var(--light-clr);
 
 }
 
@@ -395,7 +397,7 @@ footer a {
 
     .download-projects * {
 
-        max-width: 55ch;
+        max-width: 60ch;
         margin-left: auto;
         margin-right: auto;
 
