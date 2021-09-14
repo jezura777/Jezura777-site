@@ -6,8 +6,8 @@
 
     --dark-clr: #2d2d2d;
     --light-clr: #d3d3d3;
-    --clr-primary: hsl(120, 77%, 42%);
-    --clr-accent: hsl(150, 780%, 35%);
+    --clr-primary: #19bf19;
+    --clr-accent: #bf19a9;
 
     --ff-title: 'Open Sans', sans-serif;
     --ff-text: 'Montserrat', sans-serif;
@@ -263,7 +263,6 @@ nav a:focus {
 .about-me__body {
 
     padding: 1.5em 1em 3em;
-    font-wheit: 1500;
 
 }
 
