@@ -26,7 +26,7 @@ html {
 
     box-sizing: border-box;
     font-family: var(--ff-title);
-    color: var(--dark-clr);
+    color: var(--light-clr);
 
 }
 
@@ -152,7 +152,7 @@ nav a {
 nav a:hover,
 nav a:focus {
 
-    color: var(--clr-accent);
+    color: var(--clr-primary);
     text-decoration: underline;
 
 }
@@ -175,12 +175,12 @@ nav a:focus {
 .btn {
 
     padding: .75em 2.5em;
-    color: white;
+    color: grey;
     text-decoration: none;
     display: block;
     margin: 0.5em 0;
     border-radius: .35em;
-    box-shadow: 0 0 10px #8a8a8a;
+    box-shadow: 0 0 10px white;
     transition: all 200ms ease-in-out;
     opacity: .7;
 
@@ -208,7 +208,7 @@ nav a:focus {
 .logo {
 
     font-family: var(--ff-title);
-    color: black;
+    color: white;
     padding: 10px;
 
 }
@@ -225,12 +225,12 @@ nav a:focus {
 
 .intro {
 
-    background-color: #333;
+    background-color: var(--light-clr);
     background-image: url(assets/images/pexels-markus-spiske-1089438.jpg);
     background-blend-mode: multiply;
     background-attachment: fixed;
     background-size: cover;
-    color: var(--light-clr);
+    color: var(--dark-clr);
     text-align: center;
     padding: 15vh 1em;
 
@@ -239,11 +239,11 @@ nav a:focus {
 
 .about-me {
 
-    background-color: var(--clr-accent);
+    background-color: var(--clr-primary);
 
     display: flex;
     flex-direction: column;
-    color: var(--light-clr);
+    color: var(--dark-clr);
     font-weight: 500;
     padding: 0;
 
@@ -251,7 +251,7 @@ nav a:focus {
 
 .about-me__intro {
 
-    background-color: var(--clr-accent);
+    background-color: var(--clr-primary);
     background-image: url(assets/images/software-3682509.jpg);
     background-blend-mode: multiply;
     background-attachment: fixed;
@@ -268,7 +268,7 @@ nav a:focus {
 
 .download-projects {
 
-    background: #bbbbbb;
+    background: #222;
 
 }
 
