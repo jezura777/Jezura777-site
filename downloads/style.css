@@ -12,6 +12,7 @@
     --ff-title: 'Open Sans', sans-serif;
     --ff-text: 'Montserrat', sans-serif;
 
+
 }
 
 *,
@@ -246,7 +247,7 @@ nav a:focus {
     display: flex;
     flex-direction: column;
     color: var(--light-clr);
-    font-weight: 500;
+    font-weight: 700;
     padding: 0;
 
 }
