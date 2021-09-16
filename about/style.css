@@ -101,6 +101,13 @@ a {
 
 }
 
+.about-me__body a {
+
+    color: #1f1fff;
+    text-decoration: underline;
+
+}
+
 .text-primary {
 
     color: var(--clr-primary);
