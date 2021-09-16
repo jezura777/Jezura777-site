@@ -26,7 +26,8 @@ html {
 
     box-sizing: border-box;
     font-family: var(--ff-title);
-    color: var(--dark-clr);
+    color: black;
+    background-color: var(--dark-clr);
 
 }
 
@@ -152,7 +153,7 @@ nav a {
 nav a:hover,
 nav a:focus {
 
-    color: var(--clr-accent);
+    color: #1aff1a;
     text-decoration: underline;
 
 }
@@ -180,7 +181,7 @@ nav a:focus {
     display: block;
     margin: 0.5em 0;
     border-radius: .35em;
-    box-shadow: 0 0 10px #8a8a8a;
+    box-shadow: 0 0 10px black;
     transition: all 200ms ease-in-out;
     opacity: .7;
 
@@ -225,8 +226,8 @@ nav a:focus {
 
 .intro {
 
-    background-color: #333;
-    background-image: url(../assets/images/pexels-markus-spiske-1089438.jpg);
+    background-color: var(--light-clr);
+    background-image: url(assets/images/pexels-markus-spiske-1089438.jpg);
     background-blend-mode: multiply;
     background-attachment: fixed;
     background-size: cover;
@@ -239,20 +240,20 @@ nav a:focus {
 
 .about-me {
 
-    background-color: var(--clr-accent);
+    background-color: var(--clr-primary);
 
     display: flex;
     flex-direction: column;
     color: var(--light-clr);
-    font-weight: 500;
+    font-weight: 700;
     padding: 0;
 
 }
 
 .about-me__intro {
 
-    background-color: var(--clr-accent);
-    background-image: url(../assets/images/software-3682509.jpg);
+    background-color: var(--clr-primary);
+    background-image: url(assets/images/software-3682509.jpg);
     background-blend-mode: multiply;
     background-attachment: fixed;
     background-size: cover;
@@ -268,7 +269,8 @@ nav a:focus {
 
 .download-projects {
 
-    background: #bbbbbb;
+    background: #222;
+    color: var(--light-clr);
 
 }
 
@@ -395,7 +397,7 @@ footer a {
 
     .download-projects * {
 
-        max-width: 55ch;
+        max-width: 60ch;
         margin-left: auto;
         margin-right: auto;
 

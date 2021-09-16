@@ -12,6 +12,7 @@
     --ff-title: 'Open Sans', sans-serif;
     --ff-text: 'Montserrat', sans-serif;
 
+
 }
 
 *,
@@ -26,7 +27,8 @@ html {
 
     box-sizing: border-box;
     font-family: var(--ff-title);
-    color: var(--dark-clr);
+    color: black;
+    background-color: var(--dark-clr);
 
 }
 
@@ -152,7 +154,7 @@ nav a {
 nav a:hover,
 nav a:focus {
 
-    color: var(--clr-accent);
+    color: #1aff1a;
     text-decoration: underline;
 
 }
@@ -180,7 +182,7 @@ nav a:focus {
     display: block;
     margin: 0.5em 0;
     border-radius: .35em;
-    box-shadow: 0 0 10px #8a8a8a;
+    box-shadow: 0 0 10px black;
     transition: all 200ms ease-in-out;
     opacity: .7;
 
@@ -225,7 +227,7 @@ nav a:focus {
 
 .intro {
 
-    background-color: #333;
+    background-color: var(--light-clr);
     background-image: url(../assets/images/pexels-markus-spiske-1089438.jpg);
     background-blend-mode: multiply;
     background-attachment: fixed;
@@ -237,26 +239,38 @@ nav a:focus {
 }
 
 
-.about-me {
+.about-me, 
+.about-meha {
 
-    background-color: var(--clr-accent);
+    background-color: var(--clr-primary);
 
     display: flex;
     flex-direction: column;
     color: var(--light-clr);
-    font-weight: 500;
+    font-weight: 700;
     padding: 0;
 
 }
 
 .about-me__intro {
 
-    background-color: var(--clr-accent);
+    background-color: var(--clr-primary);
     background-image: url(../assets/images/software-3682509.jpg);
     background-blend-mode: multiply;
     background-attachment: fixed;
     background-size: cover;
     padding: 3em 1em 1.5em;
+
+}
+
+.about-meha__intro {
+
+    background-color: var(--clr-primary);
+    background-image: url(../assets/images/software-3682509.jpg);
+    background-blend-mode: alternate;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 1.5em 1em 3em;
 
 }
 
@@ -266,9 +280,16 @@ nav a:focus {
 
 }
 
+.about-meha__body {
+
+    padding: 1.5em 1em 3em;
+
+}
+
 .download-projects {
 
-    background: #bbbbbb;
+    background: #222;
+    color: var(--light-clr);
 
 }
 
@@ -354,10 +375,27 @@ footer a {
 
     }
 
+    .about-meha {
+
+        flex-direction: row-reverse;
+
+    }
+
     .about-me__intro,
-    .about-me__body {
+    .about-me__body{
 
         flex: 0 1 50%;
+        display: flex;
+        flex-direction: column;
+        padding: 4em 1em;
+        justify-content: center;
+
+    }
+
+    .about-meha__intro,
+    .about-meha__body {
+
+        flex: 50% 1 0;
         display: flex;
         flex-direction: column;
         padding: 4em 1em;
@@ -369,7 +407,10 @@ footer a {
 
         text-align: right;
 
+    }
 
+    .about-meha__intro {
+        text-align: left;
     }
 
     .about-me__intro > * {
@@ -379,10 +420,22 @@ footer a {
 
     }
 
+    .about-meha__intro > * {
+
+        max-width: 27rem;
+        margin-right: auto;
+
+    }
+
     .about-me__body {
 
         text-align: left;
 
+    }
+
+    .about-meha__body {
+
+        text-align: right;
 
     }
 
@@ -393,9 +446,16 @@ footer a {
 
     }
 
+    .about-meha__body > * {
+
+        max-width: 27rem;
+        margin-left: auto;
+
+    }
+
     .download-projects * {
 
-        max-width: 55ch;
+        max-width: 60ch;
         margin-left: auto;
         margin-right: auto;
 
