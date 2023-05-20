@@ -262,6 +262,7 @@ nav a:focus {
     background-blend-mode: multiply;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     padding: 3em 1em 1.5em;
 
 }
@@ -273,6 +274,7 @@ nav a:focus {
     background-blend-mode: multiply;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     padding: 1.5em 1em 3em;
 
 }
